@@ -11,7 +11,7 @@ import {
   getRotationState,
 } from '../hooks/useGameState';
 import { BOARD_WIDTH, BOARD_HEIGHT, SHAPES } from '../constants';
-import type { Board, Tetromino, TetrominoType } from '../types';
+import type { Tetromino, TetrominoType } from '../types';
 
 describe('createEmptyBoard', () => {
   it('creates a board with correct height', () => {
